@@ -36,6 +36,7 @@ API_URL = "https://api.github.com/graphql"
 
 WIDTH = 468
 LEGEND_WIDTH = 456
+COLUMN_TITLE = f"Weekly commits and releases in the last {WEEKS} weeks".replace(" ", "&nbsp;")
 MONTHS_ALT = f"Month axis for the last {WEEKS} weeks"
 LEGEND_ALT = "Each cell is one week. A stronger green means more commits. An orange dot marks a release."
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -223,7 +224,10 @@ def legend_svg() -> str:
 
 def readme_block(projects: list[Project]) -> str:
     lines = [
-        f'| Project | <img src="assets/activity/months.svg" width="{WIDTH}" height="14" alt="{MONTHS_ALT}">'
+        # GitHub shrinks an image in a table cell to fit a narrow screen, but not text with no break point.
+        # The title keeps the column wide enough to read the strips on a phone.
+        f"| Project | {COLUMN_TITLE}<br>"
+        f'<img src="assets/activity/months.svg" width="{WIDTH}" height="14" alt="{MONTHS_ALT}">'
         " | Latest version |",
         "| --- | --- | --- |",
     ]

@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Project activity
 
 <!-- project-activity:start -->
-| Project | <img src="assets/activity/months.svg" width="468" height="14" alt="Month axis for the last 52 weeks"> | Latest version |
+| Project | Weekly&nbsp;commits&nbsp;and&nbsp;releases&nbsp;in&nbsp;the&nbsp;last&nbsp;52&nbsp;weeks<br><img src="assets/activity/months.svg" width="468" height="14" alt="Month axis for the last 52 weeks"> | Latest version |
 | --- | --- | --- |
 | [**hippo**](https://github.com/stevencarpenter/hippo) | <img src="assets/activity/hippo.svg" width="468" height="24" alt="hippo: 438 commits and 73 releases in the last 52 weeks"> | [`v0.41.0`](https://github.com/stevencarpenter/hippo/releases/tag/v0.41.0) |
 | [**dotfiles-manager**](https://github.com/stevencarpenter/dotfiles-manager) | <img src="assets/activity/dotfiles-manager.svg" width="468" height="24" alt="dotfiles-manager: 60 commits and 0 releases in the last 52 weeks"> | [`main`](https://github.com/stevencarpenter/dotfiles-manager/tree/main) |

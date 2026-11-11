@@ -375,7 +375,8 @@ class ReadmeBlockTest(unittest.TestCase):
         ]
         want = "\n".join(
             [
-                '| Project | <img src="assets/activity/months.svg" width="468" height="14"'
+                "| Project | Weekly&nbsp;commits&nbsp;and&nbsp;releases&nbsp;in&nbsp;the&nbsp;last&nbsp;52&nbsp;weeks<br>"
+                '<img src="assets/activity/months.svg" width="468" height="14"'
                 ' alt="Month axis for the last 52 weeks"> | Latest version |',
                 "| --- | --- | --- |",
                 "| [**hippo**](https://github.com/stevencarpenter/hippo)"
