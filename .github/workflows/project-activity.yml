@@ -1,0 +1,33 @@
+name: Project activity
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # The last step pushes with the token that checkout stores.
+      - uses: actions/checkout@v7
+
+      - name: Generate the activity images and the README table
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/project_activity.py
+
+      - name: Commit the result if it changed
+        run: |
+          git add README.md assets/activity
+          if git diff --cached --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update project activity"
+          git push

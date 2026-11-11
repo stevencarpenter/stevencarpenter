@@ -21,6 +21,9 @@ Session.vim
 .nvimrc
 .exrc
 
+# Python
+__pycache__/
+
 # JetBrains
 .idea/*
 *.iml
