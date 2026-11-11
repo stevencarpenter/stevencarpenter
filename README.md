@@ -1,5 +1,10 @@
 # Steven Carpenter
 
+## About Me
+
+<!-- Placeholder: replace with real text. -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 ## Projects
 
 ### Developer tools
@@ -16,3 +21,10 @@
 - [hippo-gui](https://github.com/stevencarpenter/hippo-gui): native macOS SwiftUI client for hippo (Swift)
 - [agents](https://github.com/stevencarpenter/agents): AI agent definitions, reusable skills, and registry tooling (Python)
 - [token-auditor](https://github.com/stevencarpenter/token-auditor): token and cost auditor for local Codex, Claude, and OpenCode CLI sessions (Python)
+
+## Sponsor
+
+If my projects help you, you can support my work:
+
+- [GitHub Sponsors](https://github.com/sponsors/stevencarpenter)
+- [Buy Me a Coffee](https://buymeacoffee.com/stevencarpenter)
