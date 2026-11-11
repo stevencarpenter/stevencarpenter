@@ -1,0 +1,54 @@
+# Tool directories use `dir/*`, not `dir/`, so a later `!dir/file` rule can re-include a file.
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Vim / Neovim
+[._]*.sw[a-p]
+[._]sw[a-p]
+[._]*.un~
+*~
+Session.vim
+.netrwhist
+.nvimlog
+.nvim.lua
+.nvimrc
+.exrc
+
+# Python
+__pycache__/
+
+# JetBrains
+.idea/*
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/*
+
+# Zed
+.zed/*
+
+# Claude Code
+.claude/*
+CLAUDE.local.md
+
+# Codex
+.codex/*
+
+# pi
+.pi/*
+
+# Other agent tool state
+.agents/*
+.codegraph/
+.serena/
+.lavish/
+.understand-anything/
