@@ -50,7 +50,7 @@
 <rect x="432" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="441" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="450" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
-<rect x="459" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="459" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.35"/>
 <circle cx="282.5" cy="4.5" r="2.35" fill="#e16f24"/>
 <circle cx="300.5" cy="4.5" r="3.75" fill="#e16f24"/>
 <circle cx="318.5" cy="4.5" r="2.35" fill="#e16f24"/>
@@ -60,4 +60,5 @@
 <circle cx="399.5" cy="4.5" r="2.35" fill="#e16f24"/>
 <circle cx="408.5" cy="4.5" r="2.7" fill="#e16f24"/>
 <circle cx="426.5" cy="4.5" r="2.35" fill="#e16f24"/>
+<circle cx="462.5" cy="4.5" r="2.35" fill="#e16f24"/>
 </svg>
