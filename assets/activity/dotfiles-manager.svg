@@ -44,11 +44,11 @@
 <rect x="378" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="387" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="396" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
-<rect x="405" y="10" width="7" height="13" rx="2" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="405" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.55"/>
 <rect x="414" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.55"/>
-<rect x="423" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.55"/>
+<rect x="423" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.8"/>
 <rect x="432" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.8"/>
 <rect x="441" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.8"/>
-<rect x="450" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.8"/>
-<rect x="459" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="1"/>
+<rect x="450" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="1"/>
+<rect x="459" y="10" width="7" height="13" rx="2" fill="#2da44e" fill-opacity="0.35"/>
 </svg>
